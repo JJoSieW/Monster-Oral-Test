@@ -1,0 +1,13 @@
+<view class="tui-content">
+  <view class="tui-slider-head">设置最大值、最小值</view>
+  <view class="tui-slider-box">
+    <slider bindchange="changeSlider3" min="1.0" max="4.0" step="0.1" value="{{slider}}" show-value/>
+  </view>
+</view>
+
+<view class = "determine-container" bindtap = 'go'>
+      <text class = 'determine'>确定</text>
+</view> 
+
+
+
